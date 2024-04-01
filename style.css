@@ -44,10 +44,25 @@ h1{
     width: 90%;
     margin: 15px;
 }
+
+.hight{
+    display: flex;
+    justify-content: space-between;
+}
+
 .bmi2{
-    width: 90%;
+   width: 90px;
+   padding: 1px;
     margin: 15px;
 }
+.bmi21{
+  
+    margin: 15px;
+    width: 90px;
+}
+
+
+
 #b1{
     display: block;
     margin: 15px;
@@ -74,6 +89,7 @@ h1{
     color: aliceblue;
 
 }
+
 
 
 .div2{
@@ -124,3 +140,10 @@ h1{
     color: aliceblue;
 
 }
+
+
+.hight1{
+    display: flex;
+    justify-content: space-between;
+}
+
