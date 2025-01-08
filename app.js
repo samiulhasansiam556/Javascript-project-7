@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let b1 = document.getElementById('b1');
 
   b1.addEventListener('click', () => {
-      // Parse input values as numbers
+    
+    // Parse input values as numbers
       let weight = parseFloat(bmi1.value);
       let feet = parseFloat(bmi2.value);
       let inches = parseFloat(bmi21.value);
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Convert height to meters
       let heightInInches = feet * 12 + inches;
       let heightInMeters = heightInInches * 0.0254;
+
 
       // Calculate BMI
       let result = weight / (heightInMeters * heightInMeters);
